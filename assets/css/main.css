@@ -2891,6 +2891,8 @@ input, select, textarea {
 		.statistics ul > li {
 			padding: 0;
 			margin: 0;
+			text-align: center;
+			list-style-position: inside;
 		}
 
 		.statistics > li > strong{
