@@ -2888,6 +2888,33 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		.statistics ul > li {
+			padding: 0;
+			margin: 0;
+		}
+
+		.statistics > li > strong{
+			padding-bottom: 1em;
+			font-size: 1.5em;
+		}
+
+		.statistics p {
+			padding: 0;
+			margin: 0;
+			font-size: 1em;
+		}
+
+		.statistics li > a {
+			text-decoration: none !important;
+			border: none !important;
+		}
+
+		.statistics li > a > img {
+			height: 7em;
+			width: 9em;
+			border-radius: 5%;
+		}
+
 			.statistics li.style1 {
 				background-color: #efa8b0;
 			}
@@ -2910,7 +2937,7 @@ input, select, textarea {
 
 			.statistics li strong, .statistics li b {
 				display: block;
-				font-size: 2em;
+				font-size: 1em;
 				line-height: 1.1;
 				color: inherit !important;
 				font-weight: 300;
