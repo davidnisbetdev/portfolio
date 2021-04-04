@@ -2434,7 +2434,7 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		/* padding-left: 1em; */
 	}
 
 		ul li {
@@ -2923,6 +2923,14 @@ input, select, textarea {
 
 			.statistics li.style2 {
 				background-color: #c79cc8;
+			}
+			
+			.statistics li.style2 > strong{
+				margin-top: 0.5em
+			}
+
+			.statistics li.style2 > a > img{
+				margin-top: 0.6em;
 			}
 
 			.statistics li.style3 {
